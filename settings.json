@@ -1,4 +1,16 @@
 {
+  "close_on_file_delete": true,
+  "base_keymap": "JetBrains",
+  "git_panel": {
+    "status_style": "icon",
+  },
+  "outline_panel": {
+    "indent_size": 20.0,
+  },
+  "project_panel": {
+    "indent_size": 20.0,
+    "sticky_scroll": false,
+  },
   "autosave": "on_focus_change",
   "icon_theme": "Material Icon Theme",
   "git": {
@@ -6,8 +18,8 @@
       "enabled": false,
     },
   },
-  "ui_font_family": ".ZedSans",
-  "buffer_font_family": ".ZedMono",
+  "ui_font_family": "Hack Nerd Font",
+  "buffer_font_family": "Hack Nerd Font",
   "collaboration_panel": {
     "button": false,
   },
@@ -16,10 +28,13 @@
   },
   "disable_ai": true,
   "ui_font_size": 15.0,
-  "buffer_font_size": 15.0,
+  "buffer_font_size": 13.0,
   "theme": {
     "mode": "system",
     "light": "One Light",
     "dark": "One Dark",
+  },
+  "file_types": {
+    "Markdown": ["prompt"],
   },
 }
