@@ -8,6 +8,7 @@
     "indent_size": 20.0,
   },
   "project_panel": {
+    "dock": "left",
     "indent_size": 20.0,
     "sticky_scroll": false,
   },
@@ -18,8 +19,6 @@
       "enabled": false,
     },
   },
-  "ui_font_family": "Hack Nerd Font",
-  "buffer_font_family": "Hack Nerd Font",
   "collaboration_panel": {
     "button": false,
   },
