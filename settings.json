@@ -20,8 +20,6 @@
 // }
 
 {
-  "proxy": "",
-  "server_url": "",
   "prettier": {
     "allowed": true,
   },
