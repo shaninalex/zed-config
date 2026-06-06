@@ -6,19 +6,6 @@
 // To see all of Zed's default settings without changing your
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
-// {
-//   "project_panel": {
-//     "dock": "left"
-//   },
-//   "ui_font_size": 16,
-//   "buffer_font_size": 13.0,
-//   "theme": {
-//     "mode": "system",
-//     "light": "One Light",
-//     "dark": "One Dark",
-//   },
-// }
-
 {
   "prettier": {
     "allowed": true,
@@ -26,6 +13,10 @@
   "formatter": "prettier",
   "format_on_save": "on",
   "languages": {
+    "C": {
+      "formatter": "language_server",
+      "format_on_save": "on",
+    },
     "Go": {
       "format_on_save": "on",
       "formatter": "language_server",
@@ -33,7 +24,7 @@
       "hard_tabs": true,
     },
   },
-  "buffer_font_family": "Ubuntu Mono",
+  "buffer_font_family": "Hack Nerd Font Mono",
   "close_on_file_delete": true,
   "base_keymap": "JetBrains",
   "git_panel": {
@@ -62,6 +53,7 @@
   },
   "disable_ai": true,
   "ui_font_size": 15.0,
+  "buffer_line_height": "standard",
   "buffer_font_size": 13.0,
   "theme": {
     "mode": "system",
