@@ -1,0 +1,4 @@
+# my usual formatting
+BasedOnStyle: LLVM
+IndentWidth: 4
+BreakBeforeBraces: Allman
